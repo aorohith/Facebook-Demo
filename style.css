@@ -190,18 +190,16 @@ body{
 @media screen and (max-Width:1000px) {
     .body-section{
         display: block;
+        height:700px;
         margin: 0,auto;
-        background-color:blue;
     }
     .left-section{
         display:flex;
-        background-color: red;
         margin:auto;
         width: 400px;
         height:150px;
     }
     .left-body{
-        background-color:white;
         max-width: 600px;
         max-height: 200px;
         margin:auto;
@@ -218,7 +216,6 @@ body{
     }
     .right-section{
         display: block;
-        background-color:green;
         margin:auto;
         width: 400px;
         height:400px;
@@ -226,6 +223,10 @@ body{
     .form-section{
         display:block;
         margin:0,auto;
+        padding-top: 15px;
+
     }
-    
+    .input-field{
+    }
+
 }
