@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F0F2F5;
+
+}
+
+/* Left Section */
+.body-section{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    text-align: center; 
+    background-color: red;
+    
+}
+.left-section{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.left-body{
+    max-width: 600px;
+    max-height: 400px;
+    margin: 130px 0 0 116px;
+
+}
+
+.left-section img{
+    height: 106px;
+    margin-left: -25px;
+   
+}
+
+.left-section p{
+    font-size: 28px;
+    text-align: left;
+    margin-top: -16px;
+}
+
+
+/* Left Section End */
+
+
+/* Right Section */
+
+.right-section{
+    width: 40%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.form-section{
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 5px 6px rgb(196, 192, 192);
+    text-align: center;
+    
+}
+.input-field{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+
+}
+.input-field input{
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #DDDFE2;
+    margin: 1px auto;
+    padding-left: 8px;
+    font-size: 15px;
+}
+#logInBtn{
+    margin-top: 8px;
+    background-color: rgb(22,111,229);
+    font-size: 19px;
+    color: white;
+    font-weight: bold;
+}
+.form-bottom  a{
+    font-size: 14px;
+    text-decoration: none; 
+    color: #18A4F7;
+}
+.form-bottom  a:hover{
+    text-decoration: underline;
+}
+.create-page a:hover{
+    text-decoration: underline;
+}
+.line{
+    width: 95%;
+    height: 1px;
+    background-color: #DADDE1;
+    margin: 17px auto; 
+}
+.newAccount{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border:none;
+    background-color: #36A420;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.create-page{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 30px; 
+}
+.create-page a{
+    color: black;
+    padding-right: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Form Section End */
+
+
+/* Footer Section */
+
+
+.footer-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
+.bottom-words{
+    width: 75%;
+    text-align: left;
+}
+.bottom-line{
+    background-color: #DDDFE2;
+    height: 1px;
+    width: 97%;
+    margin: 12px auto 9px auto;
+}
+
+.footer-container a{
+    color: #3858B3;
+    padding: 0px;
+    font-size: 12px;
+    padding-left: 15px;
+    line-height: 6px;
+    text-decoration: none;
+}
+.lang a{
+    padding-left: 5px;
+}
+.lang{
+    margin-left: 10px;
+}
+.footer-container a:hover{
+    text-decoration: underline;
+}
+
+.footer-container p{
+    color: #737373;
+    font-size: 11px;
+    margin: 20px 0 15px 15px;
+}
+
+/* **********************************Mobile Devices Width 320px*************************************** */
+
+
+@media screen and (max-Width:1000px) {
+    .body-section{
+        display: block;
+        margin: 0,auto;
+        background-color:blue;
+    }
+    .left-section{
+        display:flex;
+        background-color: red;
+        margin:auto;
+        width: 400px;
+        height:150px;
+    }
+    .left-body{
+        background-color:white;
+        max-width: 600px;
+        max-height: 200px;
+        margin:auto;
+
+    }
+    .left-body p{
+        font-size:22px;
+    }
+    .left-body img{
+        display:flex;
+        justify-content:center;
+        height:90px;
+        margin:auto;
+    }
+    .right-section{
+        display: block;
+        background-color:green;
+        margin:auto;
+        width: 400px;
+        height:400px;
+    }
+    .form-section{
+        display:block;
+        margin:0,auto;
+    }
+    
+}
